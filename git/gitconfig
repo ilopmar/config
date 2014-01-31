@@ -8,3 +8,6 @@
 [core]
     autocrlf = input
     safecrlf = true
+
+[rerere]
+    enabled = true
