@@ -1,5 +1,10 @@
 [user]
-        name = Iván López
-        email = lopez.ivan@gmail.com
+    name = Iván López
+    email = lopez.ivan@gmail.com
+
 [color]
-        ui = true
+    ui = true
+
+[core]
+    autocrlf = input
+    safecrlf = true
