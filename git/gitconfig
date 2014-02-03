@@ -17,3 +17,7 @@
 
 [push]
     default = simple
+
+[diff]
+    external = /home/ivan/bin/git-diff.sh
+    prompt = false
