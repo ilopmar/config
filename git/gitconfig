@@ -29,3 +29,11 @@
     path = /usr/bin/kdiff3
     keepBackup = false
     trustExitCode = false
+
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    hist2 = log --pretty=format:\"%d %Cred%h%Creset %ad %Cgreen%an%Creset %s \" --graph --date=short
+    show-files = show --pretty="format:" --name-only
+    st = status
+    lg = log --color --graph \n  --pretty=format:'%Cred%h%Creset \n  -%C(yellow)%d%Creset %s %Cgreen(%cr) \n  %C(bold blue)<%an>%Creset' \n  --abbrev-commit
+    yesterday = log --since 1.day.ago --decorate --oneline --author ivan.lopez@kaleidos.net
