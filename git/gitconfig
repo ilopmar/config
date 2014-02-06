@@ -23,12 +23,18 @@
     prompt = false
 
 [merge]
-    tool = kdiff3
+    tool = p4merge
 
 [mergetool "kdiff3"]
     path = /usr/bin/kdiff3
     keepBackup = false
     trustExitCode = false
+
+[mergetool "p4merge"]
+  cmd = /home/ivan/software/p4v/bin/p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+  keepTemporaries = false
+  trustExitCode = false
+  keepBackup = false
 
 [alias]
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
