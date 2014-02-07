@@ -43,3 +43,4 @@
     st = status
     lg = log --color --graph \n  --pretty=format:'%Cred%h%Creset \n  -%C(yellow)%d%Creset %s %Cgreen(%cr) \n  %C(bold blue)<%an>%Creset' \n  --abbrev-commit
     yesterday = log --since 1.day.ago --decorate --oneline --author ivan.lopez@kaleidos.net
+    dc = diff --cached
