@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<g:set var="${1:xxxxxx}" value="\${${2:xxxx}}" />
+]]></content>
+	<tabTrigger>g:set</tabTrigger>
+    <description>grails gsp g-set block</description>
+</snippet>

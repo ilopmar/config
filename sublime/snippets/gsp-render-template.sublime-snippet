@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<g:render template="${1:xxxx}" model="${2:xxxx}" />
+]]></content>
+    <tabTrigger>gren</tabTrigger>
+    <description>grails gsp render template block</description>
+</snippet>

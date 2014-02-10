@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<g:if test="\${${1:xxxx}}">
+</g:if>
+<g:else>
+</g:else>
+]]></content>
+	<tabTrigger>g:if</tabTrigger>
+    <description>grails gsp if-else block</description>
+</snippet>

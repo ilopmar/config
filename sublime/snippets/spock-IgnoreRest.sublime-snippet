@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+@spock.lang.IgnoreRest
+]]></content>
+    <tabTrigger>@ign</tabTrigger>
+    <description>spock @IgnoreRest</description>
+</snippet>
