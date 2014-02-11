@@ -1,0 +1,9 @@
+{
+    "selector": "source.sql",
+    "cmd": [
+        "/usr/bin/psql",
+        "-U","postgres",
+        "-f","$file",
+        "decathlon"
+    ]
+}

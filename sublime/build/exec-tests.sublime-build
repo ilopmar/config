@@ -1,0 +1,8 @@
+{
+    "cmd": [
+        "/home/ivan/bin/improx/improxSmartInvoker.sh",
+        "$file"
+    ],
+    "file_regex": "\\((.*?):([0-9]*)\\)",
+    "selector": "source.groovy"
+}
