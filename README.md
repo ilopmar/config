@@ -1,4 +1,7 @@
 Config
 ======
 
-Repo to store the configuration of some programs
+Repo to store the configuration of some programs.
+
+- Git
+- Sublime Text 2
