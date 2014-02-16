@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"Arduino-like IDE",
+		"Expand Tabs on Save",
+		"Git",
+		"Grunt",
+		"LESS",
+		"LiveReload",
+		"Markdown Preview",
+		"Move Tabs",
+		"Package Control",
+		"RstPreview",
+		"SideBarEnhancements",
+		"Sublimerge"
+	],
+	"repositories":
+	[
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}
