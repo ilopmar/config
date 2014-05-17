@@ -4,11 +4,19 @@
   'ctrl-insert': 'core:copy'
   'shift-insert': 'core:paste'
   'shift-delete': 'core:cut'
+  'ctrl-shift-z': 'core:redo'
 
 '.workspace':
-  'ctrl-shift-pagedown': 'tab-move-key:right'
+  'ctrl-shift-pagedown': 'tab-move-key :right'
   'ctrl-shift-pageup': 'tab-move-key:left'
+  'shift-f11': 'zen:toggle'
+
+'.workspace .editor:not(.mini)':
+  'ctrl-shift-/': 'editor:toggle-line-comments'
 
 '.editor':
   'ctrl-f2': 'bookmarks:toggle-bookmark'
   'ctrl-shift-f2': 'bookmarks:view-all'
+
+".autocomplete-plus input.hidden-input":
+  "enter": "autocomplete-plus:confirm"
