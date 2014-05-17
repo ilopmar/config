@@ -2,5 +2,6 @@
 	"extensions":
 	[
 		"gradle"
-	]
+	],
+    "tab_size": 4
 }
