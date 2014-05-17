@@ -1,0 +1,58 @@
+'exception-reporting':
+  'userId': '25d595de-e5aa-4dd6-96ec-bc36897b12f5'
+'release-notes':
+  'viewedVersion': 'dbe15f7'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'cc308577c87984fd30c8b098f71a1e297ef77175'
+'core':
+  'themes': [
+    'atom-light-ui'
+    'atom-light-syntax'
+  ]
+  'ignoredNames': [
+    '*.class'
+    'target/*'
+  ]
+  'disabledPackages': [
+    'background-tips'
+    'git-blame'
+    'git-diff'
+    'language-c'
+    'language-coffee-script'
+    'language-gfm'
+    'language-go'
+    'language-make'
+    'language-objective-c'
+    'language-perl'
+    'language-php'
+    'language-ruby'
+    'language-ruby-on-rails'
+    'language-sass'
+    'language-toml'
+    'open-on-github'
+    'symbols-view'
+    'welcome'
+  ]
+'editor':
+  'showIndentGuide': true
+  'tabLength': 4
+  'preferredLineLength': 120
+  'fontFamily': 'DejaVu Sans Mono'
+  'showInvisibles': true
+  'invisibles':
+    'cr': '↩'
+    'eol': ''
+    'space': '·'
+    'tab': '⇥'
+  'fontSize': 14
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
+'project-manager':
+  'showPath': true
+'git-blame':
+  'customCommitUrlTemplateString': 'https://gitlab.kaleidos.net/<%- project %>/<%- repo %>/commit/<%- revision %>'
+  'useCustomUrlTemplateIfStandardRemotesFail': true
+'highlight-selected':
+  'onlyHighlightWholeWords': true
