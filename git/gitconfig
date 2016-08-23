@@ -44,8 +44,17 @@
 [alias]
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     hist2 = log --pretty=format:\"%d %Cred%h%Creset %ad %Cgreen%an%Creset %s \" --graph --date=short
+    tree = log --oneline --graph --color --all --decorate --date-order
     show-files = show --pretty="format:" --name-only
     st = status
+    sth = status .
     lg = log --color --graph \n  --pretty=format:'%Cred%h%Creset \n  -%C(yellow)%d%Creset %s %Cgreen(%cr) \n  %C(bold blue)<%an>%Creset' \n  --abbrev-commit
     yesterday = log --since 1.day.ago --decorate --oneline --author ivan.lopez@kaleidos.net
     dc = diff --cached
+    cp = cherry-pick
+    ca = commit --amend
+    caa = commit --amend -a
+
+    # Fetch PR from GitHub by number/id
+    fetchpr = "!sh -c 'git fetch origin pull/$0/head:pr/$0'"
+
