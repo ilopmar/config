@@ -23,6 +23,7 @@
     default = simple
 
 [diff]
+    compactionHeuristic = true
     external = /home/ivan/bin/git-diff.sh
     prompt = false
 
