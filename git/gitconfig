@@ -15,6 +15,10 @@
 [mergetool]
     prompt = false
 
+[rebase]
+    autoStash = true
+    stat = true
+
 [push]
     default = simple
 
