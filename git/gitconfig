@@ -19,6 +19,9 @@
     autoStash = true
     stat = true
 
+[fetch]
+    prune = true
+
 [push]
     default = simple
 
