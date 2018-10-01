@@ -50,10 +50,15 @@
     sth = status .
     lg = log --color --graph \n  --pretty=format:'%Cred%h%Creset \n  -%C(yellow)%d%Creset %s %Cgreen(%cr) \n  %C(bold blue)<%an>%Creset' \n  --abbrev-commit
     yesterday = log --since 1.day.ago --decorate --oneline --author ivan.lopez@kaleidos.net
+    ap = add -p
     dc = diff --cached
     cp = cherry-pick
     ca = commit --amend
     caa = commit --amend -a
+    startweb = instaweb -d webrick -p 8000 --start
+    stopweb = instaweb -d webrick -p 8000 --stop
+    sha = rev-parse HEAD
+    pt = push --tags
 
     # Fetch PR from GitHub by number/id
     fetchpr = "!sh -c 'git fetch origin pull/$0/head:pr/$0'"
